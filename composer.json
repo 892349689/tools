@@ -1,0 +1,20 @@
+{
+    "name": "layman/tools",
+    "description": "redis bc verify layman tools",
+    "keywords": ["redis bc verify layman tools"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cc_layman",
+            "email": "954189157@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Layman\\Tools\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
