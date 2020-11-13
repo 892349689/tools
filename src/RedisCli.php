@@ -34,6 +34,10 @@ class RedisCli
         $this->redis = Redis::connection($connect);
     }
 
+    private function __clone()
+    {
+    }
+
     /**
      * Notes: 获取redis客户端
      * @param string $prefix
