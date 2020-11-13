@@ -51,6 +51,7 @@ class RedisCli
             self::$redisCli->redis = Redis::connection($connect);
             self::$redisCli->connect =$connect;
         }
+		return self::$redisCli;
     }
 
     /**
