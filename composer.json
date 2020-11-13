@@ -1,5 +1,5 @@
 {
-    "name": "layman/tools",
+    "name": "layman-tools",
     "description": "redis bc verify layman tools",
     "keywords": ["redis bc verify layman tools"],
     "license": "MIT",
