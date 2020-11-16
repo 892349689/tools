@@ -14,7 +14,7 @@ class Verify
      */
 
     private $redis;
-    private $prefix = 'mobile_verify:';
+    private $prefix = 'account_verify:';
 
     private function __construct($prefix = null)
     {
