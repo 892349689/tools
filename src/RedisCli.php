@@ -426,4 +426,34 @@ class RedisCli
     {
         return $this->redis->exec();
     }
+
+    /**
+     * Notes:检测键是否存在
+     * @param $key
+     * @return mixed
+     */
+    public function exists($key)
+    {
+        return $this->redis->exists($key);
+    }
+
+    /**
+     * Notes:自增
+     * @param $key
+     * @return mixed
+     */
+    public function incr($key)
+    {
+        return $this->redis->incr($key);
+    }
+
+    /**
+     * Notes: 自减
+     * @param $key
+     * @return mixed
+     */
+    public function decr($key)
+    {
+        return $this->redis->decr($key);
+    }
 }
